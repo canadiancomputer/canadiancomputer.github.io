@@ -13,26 +13,23 @@
 		font-size: 0;
 	}
 	#stores{
-		width: 95%;
+		width: 100%;
 		height: 50%;
 		padding-top: 25px;
 		padding-bottom: 25px;
 		text-align: left;
 		margin: 0 auto;
+		display: inline-block;
 		
 	}
 	#core1, #carbon{
 		width: 45%;
 		font-family: Gibson;
 		line-height: 20px;
-		margin: 0 auto;
-	}
-	#core1{
-		float:left;
-	}
-	#carbon{
-		float: right;
-	}
+		display: inline-block;
+		min-width: 300px;
+		}
+	
 	#core1 .storeimage{
 		background: url(Core1.png) no-repeat center bottom;
 		background-size: contain;
@@ -44,7 +41,14 @@
 		background-size: contain
 		
 	}
-
+	#carbon{
+		left: 50px;
+		position: relative;
+	}
+	#core1{
+		left: 50px;
+		position: relative;
+	}
 	#stores a{
 		text-decoration: none;
 		color: #e8291c;
@@ -65,4 +69,10 @@
 	}
 	.mapouter{
 		margin-top: 10px;
+		height: 400px;
+		
+	}
+	.gmap_canvas{
+		width: 100%;
+		height: 100%;
 	}
