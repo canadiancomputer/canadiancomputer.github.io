@@ -1,6 +1,6 @@
 	body
 	{
-		width: 90%;
+		width: 95%;
 		margin: auto;
 		padding-bottom: 50px;
 	}
@@ -13,8 +13,7 @@
 		font-size: 0;
 	}
 	#stores{
-		width: 100%;
-		height: 50%;
+		width: 99%;
 		padding-top: 25px;
 		padding-bottom: 25px;
 		text-align: left;
@@ -55,7 +54,7 @@
 	}
 	@font-face {
 		font-family: Gibson;
-		src: url(/font/Gibson-Regular.otf);
+		src: url(/Fonts/Gibson-Regular.otf);
 	}
 	address{
 		font-style: normal;	
