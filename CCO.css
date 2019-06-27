@@ -43,10 +43,12 @@
 	#carbon{
 		left: 50px;
 		position: relative;
+		margin-right: 50px;
 	}
 	#core1{
 		left: 50px;
 		position: relative;
+		margin-right: 50px;
 	}
 	#stores a{
 		text-decoration: none;
