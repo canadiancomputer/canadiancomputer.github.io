@@ -37,9 +37,10 @@
 		margin-bottom: 30px;
 	}
 	#carbon .storeimage{
-		background: url(Carbon.png) no-repeat center bottom;
-		background-size: contain
-		
+		background: url(Carbon.png) no-repeat center;
+		background-size: contain;	
+		margin-bottom: 30px;
+
 	}
 	#carbon{
 		left: 50px;
