@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName 'Employees Only'
+AuthUserFile /employees/.htpasswd
+require valid-user
