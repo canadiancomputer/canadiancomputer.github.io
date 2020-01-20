@@ -146,9 +146,12 @@ display: block;
 }
 .caption{
 	font-size: x-small;
+}
+.imglink a img{
+	border: 1px #e6e6e6 solid;
 }	
 .imglink a img:hover{
-	box-shadow: 1px 1px 1px 5px black;
+	box-shadow: 1px 1px 3px 1px black;
 }	
 	
 	
