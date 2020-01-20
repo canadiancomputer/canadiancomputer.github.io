@@ -1,0 +1,81 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Canadian Computer Outlet Inc.</title>
+  <meta name="description" content="Product Transfer">
+  <meta name="author" content="Nathan Arfin">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="../CCO.css">
+</head>
+<body>
+<header>
+<ul id="navbar">
+	<li><a href="root.html"><img id="logo" src="CCO-Logo-Small.png">
+	</a></li>
+	<li>
+		<a href="#">Process</a>
+	</li>
+	<li>
+		<a href="#">Knowledge Base</a>
+	</li>
+	<li>
+		<a href="#">Important Links</a>
+	</li>
+</ul>
+</header>
+<div id="clearfix">
+	<h1> Product Transfer Process</h1>
+	<p>Transferring product between stores is a necessary process that requires care and attention to detail. Follow this guide and take your time while performing transfers</p>
+	<ol>
+		<li><h3>Create PO on Outgoing Side</h3></li>
+		<ol type="a">
+				<li>Set supplier to Store you are transferring to</li>
+				<li>Enter Product you wish to transfer</li>
+				<li>Enter quantity and cost.</li>
+				<ol type="i">
+					<li>Cost from Cost Average</li>
+					<li>Outgoing quantity <i>negative</i></li>
+				</ol>
+				<li> If notes are required, use product code "..." and modify description</li>
+				<li>Tax Code "No Tax"</li>
+				<li>Record PO#</li>
+		</ol>
+		<div class="examples">
+			<div class="left">
+			<img src="outgoingpo.png" alt="Outgoing PO" width="90%">
+			<p class="caption">Example of an Outgoing PO.</p>
+			</div>
+			<div class="right">
+			<img src="costaverage.png" alt="Where to find Cost Average" width="60%">
+			<p class="caption">Location of Cost Average on a product card.
+			</div>
+		</div>
+		<li><h3>Create PO on Incoming Side</h3></li>
+			<ol type="a">
+				<li>Set supplier to store you are transferring from</li>
+				<li>Enter products</li>
+				<li>Enter quantity and cost</li>
+				<ol type="i">
+					<li>Cost from Outgoing PO</li>
+					<li>Incoming <i>positive</i> quantity</li>
+				</ol>
+				<li> Tax Code "No Tax"</li>
+				<li>Enter Outgoing PO# in Ref field</li>
+				<li>Enter Incoming PO in Ref of the associated PO</li>
+			</ol>
+		<li><h3><u>Verify Total is the same on both documents</u></h3></li>
+		<li><h3>Receive Out</h3></li>
+		<ol type="a">
+			<li> Negatively receive outgoing products, with associated SN as needed</li>
+			<li>Attach a physical copy of the PO to the outgoing product</li>
+		</ol>
+		<li><h3>Receive In upon arrival</h3></li>
+		</ol>
+		<h4>Things to Remember</h4>
+		<h4>POs must have the EXACT SAME quantities and costs</h4>
+		<h4>DO NOT receive out products at $0.00 unless that is the REAL average cost of goods as reflected in Lightspeed</h4>
+		<h4>DO NOT move product between location without following these steps.</h4>

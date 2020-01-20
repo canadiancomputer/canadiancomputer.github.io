@@ -156,5 +156,19 @@ display: block;
 .imglink a img:active{
 	box-shadow: 1px 1px 4px 2px black;
 }	
+.examples{
+	width: 100%;
+	display: inline;
+}
+.examples.left{
+	width: 40%;
+	display: inline-block;
+	float: left;
+}
+.examples.right{
+	width: 40%;
+	float: right;
+}
+
 	
 	
