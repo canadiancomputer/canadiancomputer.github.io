@@ -147,6 +147,8 @@ display: block;
 .caption{
 	font-size: x-small;
 }	
-	
+.imglink a img:hover{
+	box-shadow: 1px 1px 1px 5px black;
+}	
 	
 	
