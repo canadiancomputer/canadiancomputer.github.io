@@ -1,5 +1,5 @@
-	body
-	{
+body
+{
 		width: 95%;
 		margin: auto;
 		padding-bottom: 50px;
@@ -87,14 +87,17 @@
 	ul li, ol li{
 		padding: 5px;
 	}
+header{
+	margin-top:10px;
+}	
 #clearfix{
-top: 50px;
+margin-top: 12%;
 position: relative;
 display: block;
 }	
 #navbar {
   list-style-type: none;
-  margin: 0;
+  margin: 20px 0px 0px 0px;
   padding: 0 0 10 0;
   padding-left: 10px;
   overflow: hidden;
@@ -158,16 +161,16 @@ display: block;
 }	
 .examples{
 	width: 100%;
-	display: inline;
+	display: inline-block;
 }
-.examples.left{
+.examples .left{
 	width: 40%;
 	display: inline-block;
 	float: left;
 }
-.examples.right{
+.examples .right{
 	width: 40%;
-	float: right;
+	float: left;
 }
 
 	
