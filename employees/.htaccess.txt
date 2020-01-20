@@ -1,4 +1,5 @@
 AuthType Basic
 AuthName 'Employees Only'
-AuthUserFile /employees/.htpasswd
+AuthUserFile /.htpasswd
 require valid-user
+DirectoryIndex root.html
