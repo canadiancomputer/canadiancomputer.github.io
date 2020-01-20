@@ -3,7 +3,7 @@
 		width: 95%;
 		margin: auto;
 		padding-bottom: 50px;
-		font-family: Gibson;
+		font-family: Gibson, sans-serif;
 	}
 
 	#title{
@@ -87,18 +87,25 @@
 	ul li, ol li{
 		padding: 5px;
 	}
+#clearfix{
+top: 50px;
+position: relative;
+display: block;
+}	
 #navbar {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0 0 10 0;
   padding-left: 10px;
   overflow: hidden;
   background: linear-gradient(180deg, rgba(241,241,241,1) 0%, rgba(255,255,255,1) 52%, rgba(235,235,235,1) 100%);
   width: 100%;
   position: fixed;
+  display: inline-block;
   left: 0;
   right: 0;
   top:0;
+  z-index: 3;
   
 }
 
