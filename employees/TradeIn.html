@@ -1,0 +1,204 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Canadian Computer Outlet Inc.</title>
+  <meta name="description" content="Trade-In Process">
+  <meta name="author" content="Nathan Arfin">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="CCO.css">
+  <script>
+function ShowHideNotebook() {
+  var x = document.getElementById("Trade-Checklist-Notebook");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<script>
+function ShowHideDesktop() {
+  var x = document.getElementById("Trade-Checklist-Desktop");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+</head>
+<body>
+<ul id="navbar">
+	<li><a href="employees.html"><img id="logo" src="CCO-Logo-Small.png">
+	</a></li>
+	<li>
+		<a href="#">Process</a>
+	</li>
+	<li>
+		<a href="#">Knowledge Base</a>
+	</li>
+	<li>
+		<a href="#">Important Links</a>
+	</li>
+</ul>
+</body>
+	<h1>Trade-In Process</h1>
+		<h3>Customer Brings in computer for Trade-In</h3>
+		<ol>
+			<li>Verify Pricing - GBB or Trade
+			<ul>
+				<li>If GBB, 50% of original sell price, or 50% off the new unit they wish to purchase, whichever is lower.</li>
+				<li>If not GBB, retrieve pricing from <a href="https://phobio.com/tradein/apple-ca/" target="_blank">Trade-In Portal</a></li>
+			</ul>
+			</li>
+			<li>Create SRO
+				<ul>
+					<li>Input Serial Number to retrieve device details</li>
+					<li>In the problem description write:
+						<ul>
+							<li>Quoted buyback/trade-in amount</li>
+							<li>Full specs of machine: Processor/Memory/Hard Drive/Graphics</li>
+							<li>Change to Status 23 Trade Test (Carbon Computing only)</li>
+							<li>Any deficiencies (missing adapter/keyboard/mouse) should be noted</li>
+							<li>Deliver to the customer an expected 24-Hour turnaround on Trade Testing in normal circumstance</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+			Have customer sign out of any Find My Device
+			</li>
+		</ol>
+		<h3>Technician Testing</h3>
+		<ol>
+			<li>Follow Trade-In Checklist
+				<ul>
+					<li>
+					<button onclick="ShowHideNotebook()">Notebook Checklist</button>
+					<div id="Trade-Checklist-Notebook" style="display:none;">
+						SPECS<br>
+						Processor / RAM / Storage-Capacity and Type / Graphics<br>
+						<br>
+						DIAGS<br>
+						ASD MRI - Verify Serial Number + Battery (Apple/Non-Apple)<br>
+						ASD Storage -<br> 		
+						ASD OS -<br>
+						ASD EFI -<br>	
+						Keyboard -<br> 		
+						Trackpad -<br> 		
+						Power Adapter -<br>
+						<br>
+						PHYSICAL CHECK<br>
+						Internal Condition-<br>
+						Display-<br>
+						Top Case-<br>
+						Bottom Case-<br>
+						Power Adapter-<br>
+						Feet-<br>
+						<br>
+						FUNCTIONALITY<br>
+						Ports - <br>
+						Audio (Speakers)<br>
+						Display Hinge<br>
+						Camera<br>
+						Bluetooth<br>
+						WiFi<br>
+						<br>
+						OTHER<br>
+						Repairs needed:<br>
+						REP Eligibility:<br>
+						Notes:<br>		
+					</div>
+					</li>
+					<li>
+					<button onclick="ShowHideDesktop()">Desktop Checklist</button>
+					<div id="Trade-Checklist-Desktop" style="display:none;">
+						SPECS<br>
+						Processor / RAM / Storage-Capacity and Type / Graphics<br>
+						<br>
+						DIAGS<br>
+						ASD MRI - Verify Serial Number<br>
+						ASD Storage -<br> 		
+						ASD OS -<br>
+						ASD EFI -<br>	
+						<br>
+						PHYSICAL CHECK<br>
+						Internal Condition-<br>
+						Display-<br>
+						Keyboard-<br>
+						Mouse-<br>
+						Power Cord-<br>
+						Housing/Stand-<br>
+						<br>
+						FUNCTIONALITY<br>
+						Ports - <br>
+						Audio (Speakers)<br>
+						Display Hinge<br>
+						Camera<br>
+						Bluetooth<br>
+						WiFi<br>
+						Peripherals (Test and Rename)<br>
+						<br>
+						OTHER<br>
+						Repairs needed:<br>
+						REP Eligibility:<br>
+						Notes:<br>		
+					</div>
+					</li>
+					<li>Copy & Paste or Use Lightspeed Phrases</li>
+				</ul>
+			</li>
+			<li>Escalate Deficiencies, Hand off to Sales Rep</li>
+				<ul><li>Provide the original Sales Rep with any deficiencies, CCing management.</li>
+					<li>Hand back to original Sales Rep to contact Customer</li>
+				</ul>
+		</ol>
+		<h3>Retail Contact</h3>
+		<ul><li>If the unit passes:</li>
+			<ol><li>Contact customer, inform them of the Trade PASS at full value.</li>
+					<ol type="a"><li>If the customer wishes to migrate to a new machine, update the notes in the SRO, reserve the new 					computer on an ORDER tied to the SRO. Inform technicians of migration.</li>
+					<li>If the customer wishes to be paid out via EFT/Cheque, complete step 2, then hand off to Management.</li></ol>
+				<li>Create a Trade-In Acceptance Form (<a href="C1-Trade.pdf" target="_blank">Core 1</a>)(<a href="CC-Trade.pdf" target="_blank">Carbon</a>), have 					customer return a signed copy.</li>
+				<li>Hand off to Management for SKU creation</li>
+			</ol>
+			<li>If the unit has deficiencies</li>
+				<ol>
+					<li>Contact customer, inform them of the deficiencies and price adjustments (adjustments provided by management). 					</li>
+					<ol type="a">
+						<li>If the customer wishes to proceed with applied adjustments, continue as per Trade PASS</li>
+						<li>If the customer does not wish to proceed, update the notes in the SRO and mark Ready for Pickup.</li>
+					</ol>
+				</ol>
+		</ul>
+		<h3>Technician Migrate/Trade Prep</h3>
+		<ol>
+			<li>If the customer is transferring to a new machine</li>
+				<ol type="a">
+					<li>Pull the reserved computer from inventory, migrate data</li>
+					<li>Contact customer and inform them of the completed transfer</li>
+					<li>Wait 7-10 days, then follow Step 2.</li>
+				</ol>
+			<li>If the customer is not purchasing a new machine/after 1(c)</li>
+				<ol type="a">
+					<li>Perform clean install of latest/most reasonable OS for given machine</li>
+					<li>Perform physical cleaning of the unit</li>
+					<li>Update management that unit is ready for sale</li>
+				</ol>
+		</ol>
+</body>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
