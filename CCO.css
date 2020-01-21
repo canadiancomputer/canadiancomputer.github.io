@@ -91,20 +91,18 @@ header{
 	margin-top:10px;
 }	
 #clearfix{
-margin-top: 12%;
+margin-top: 10%;
 position: relative;
 display: block;
 }	
 #navbar {
   list-style-type: none;
   margin: 20px 0px 0px 0px;
-  padding: 0 0 10 0;
-  padding-left: 10px;
-  overflow: hidden;
+  padding: 0px 0px 0px 10px;
   background: linear-gradient(180deg, rgba(241,241,241,1) 0%, rgba(255,255,255,1) 52%, rgba(235,235,235,1) 100%);
   width: 100%;
   position: fixed;
-  display: inline-block;
+  display: block;
   left: 0;
   right: 0;
   top:0;
@@ -123,15 +121,14 @@ display: block;
   display: inline-block;
   color: #474746;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
 }
 
-#navbar li a:hover, .dropdown:hover {
+#navbar li a:hover, .dropdown:hover, #navbar .dropdowns li:hover {
   color: red;
   background: linear-gradient(0deg, rgba(241,241,241,1) 0%, rgba(255,255,255,1) 52%, rgba(235,235,235,1) 100%);
 }
-#navbar li a:active{
+#navbar li a:active, #navbar .dropdowns li:active{
 	color:#e6e6e6;
 	background: linear-gradient(0deg, rgba(241,241,241,1) 0%, rgba(255,255,255,1) 52%, rgba(225,225,225,1) 100%);
 }
@@ -172,6 +169,29 @@ display: block;
 	width: 40%;
 	float: left;
 }
-
-	
+.dropdown-menu{
+	display: none;
+	position: absolute;
+	background-color: #e6e6e6;
+	width: 150px;
+}
+ul.dropdowns{
+	padding: 0px
+}
+#navbar .dropdowns li{
+	list-style: none;	
+	width: 100%;
+	border: none;
+}
+.dropbutton:hover .dropdown-menu{
+	display: block;
+}
+#navbar .dropdowns li a{
+	display: block;
+	text-align: left;
+	margin: 0;
+	float: none;
+	text-decoration: none;
+	list-style: none;
+}	
 	
